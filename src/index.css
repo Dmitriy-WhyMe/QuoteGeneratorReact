@@ -80,3 +80,56 @@ button{
 button:hover{
   background-color: var(--secondary);
 }
+@media (max-width: 768px) {
+  blockquote{
+    max-width: 590px;
+  }
+  .anime{
+    transform: translate(-20%, 50%);
+  }
+  .character{
+    transform: translate(20%, 50%);
+  }
+}
+@media (max-width: 767px) {
+  blockquote{
+    max-width: 380px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  .anime, .character{
+    font-size: 1rem;
+  }
+  .anime{
+    transform: translate(-5%, 50%);
+  }
+  .character{
+    transform: translate(5%, 50%);
+  }
+}
+@media (max-width: 413px){
+  blockquote{
+    max-width: 360px;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .anime{
+    transform: translate(-5%, 40%);
+  }
+  .character{
+    transform: translate(5%, 80%);
+  }
+}
+@media (max-width: 374px){
+  blockquote{
+    max-width: 300px;
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+  .anime{
+    transform: translate(-5%, 40%);
+  }
+  .character{
+    transform: translate(5%, 80%);
+  }
+}
